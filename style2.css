@@ -460,6 +460,7 @@ _::-webkit-full-page-media, _:future, :root .cartoonName {
 
 .page-5, .page-6, .page-8, .page-7 {
   transform: rotateY(180deg);
+
 }
 
 .page {
@@ -538,6 +539,7 @@ _::-webkit-full-page-media, _:future, :root .cartoonName {
 .pageCover, .page-5 {
   background-position: center;
   background-size: cover;
+  z-index: 6;
 }
 
 /* OVER THE GARDEN WALL */
@@ -968,6 +970,10 @@ footer p {
   .cartoonName {
     margin-top: 54%;
   }
+
+  .aboutCartoonCarousel, .imageAboutAT {
+    width: 500px;
+  }
 }
 
 
@@ -1089,7 +1095,7 @@ footer p {
 
   /* CARTOON NAME */
   .cartoonName {
-    margin-top: 55% !important;
+    margin-top: 80% !important;
   }
 
   .page-5 h2 {
