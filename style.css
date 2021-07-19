@@ -206,12 +206,13 @@ _::-webkit-full-page-media, _:future, :root .AboutAT {
 }
 
 .aboutCartoon {
-  padding: 10px;
+  padding: 15px;
   margin-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 .aboutCartoon h3 {
   color: rgb(255, 255, 255);
   text-shadow: rgb(7, 68, 138) 1px 0 10px;
@@ -829,10 +830,6 @@ footer p {
   }
 
   /* CHOOSE YOUR CHAMPION */
-  .champions {
-    padding-left: 0;
-  }
-
   .championBtn {
     padding-right: 0 !important;
   }
@@ -954,7 +951,7 @@ footer p {
 
   /* ABOUT AT */
   .aboutCartoon {
-    margin-right: 13px;
+    margin-right: 1px;
   }
   /* CHAMPIONS */
   .championBtnItems {
@@ -1240,6 +1237,7 @@ footer p {
     .chooseChampion .carousel-inner {
       bottom: 10px;
       width: 80% !important;
+      left: 10px;
     }
 
     .skinsImgContainer {
