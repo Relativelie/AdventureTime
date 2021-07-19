@@ -1,0 +1,1296 @@
+/* MENU */
+.logoImg {
+    height: 30px;
+}
+
+.navbar {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.329), rgba(0,0,0,0.192), rgba(0,0,0,8e-05));
+  position: absolute !important;
+  width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    padding: 0px !important;
+    font-size: 20px;
+    color: rgb(194, 193, 193) !important;
+}
+
+.navbar-nav a {
+  font-family: 'Bona Nova', serif;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background:linear-gradient(180deg, rgba(0, 0, 0, 8e-07),rgba(0, 0, 0, 0.19), rgba(0,0,0,0.29), rgba(0,0,0,0.329));
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background: rgb(63, 63, 63);
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #a156c3 !important;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    padding: 0px !important;
+    font-size: 20px;
+    color: rgb(194, 193, 193) !important;
+}
+
+.show {
+  background:linear-gradient(180deg, rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.294), rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.404));
+  z-index: 1;
+}
+
+
+/* VIDEO */
+.backgroundVideo {
+    filter: blur(20px) brightness(30%);
+    position: absolute;
+    width: 100%;
+    margin-top: -25%;
+}
+
+.foregroundVideo {
+    position: absolute;
+    top: 130px;
+    margin: 0 auto;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left top,#6169d1 10%,  transparent 30%, transparent 70%, #52a3a8 90%);
+    border-image-slice: 1;
+    box-shadow: 0 0 50px rgba(15, 103, 161, 0.5);
+    width: 50%;
+}
+
+.videoBlock {
+    position: relative;
+}
+
+
+
+/* GAME NAME AND PLAY BTN */
+.gameBlock {
+    margin-top: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Bona Nova', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Safari 9+ (non-iOS) */
+_::-webkit-full-page-media, _:future, :root .gameBlock {
+  margin-top: 630px;
+  width: 100%;
+  display: -webkit-inline-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* BUTTON */
+.custom-btn {
+    height: 70px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .buttonText {
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  .steamLogo {
+      width: 0px;
+  }
+
+  .buttonOnPage:hover .steamLogo {
+    width: 40px;
+  }
+
+.buttonOnPage {
+   color: #fff;
+   line-height: 42px;
+   border: none;
+   width: 300px;
+   border-radius: 10px;
+   background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+ }
+
+
+ .buttonOnPage:hover {
+   box-shadow: inset 0px 33px 25px 0 #6fba82, 
+   inset 0 66px 15px 0px #07b39b,
+   inset 0 99px 5px 0px #1098ad;
+   transition-duration: 0.5s;
+ }
+
+ .btnText {
+  font-size: 30px;
+ }
+
+ 
+ .buttonOnPage:hover:after {
+   content: "Download on Steam";
+    font-size: 25px;
+ }
+
+ .buttonOnPage:hover .btnText {
+  display: none;
+ }
+
+
+/* FINN AND JAKE ON BUTTON*/
+.dada {
+  position: absolute;
+  right: -450px;
+  bottom: 0px;
+}
+
+.finn {
+  width: 0;
+  transition-duration: all 2s ease;
+}
+
+.buttonOnPage:hover .finn {
+  width: 250px;
+}
+
+
+/* ABOUT GAME */
+.AboutAT {
+  display: flex;
+  justify-content: center;
+  background-image: url("atGame/beachGame.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 10px 50px 10px;
+  box-shadow: inset  0 -15px 20px -15px rgba(243, 178, 104, 0.829), 0 0 10px 10px rgba(142, 191, 246, 0.507); 
+  align-items: center;
+  margin-top: 35px !important;
+}
+
+_::-webkit-full-page-media, _:future, :root .AboutAT {
+  background-attachment: local;
+ }
+
+.aboutCartoonCarousel, .imageAboutAT{
+  width: 550px;
+  height: 418px;
+  box-shadow: 0 0 10px 5px rgba(251, 251, 251, 0.726); 
+}
+
+.imageAboutAT {
+  object-fit: cover;
+}
+
+.aboutCartoon {
+  padding: 10px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutCartoon h3 {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(7, 68, 138) 1px 0 10px;
+  font-family: 'Bona Nova', serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.aboutCartoon p {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 56, 121) 6px 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  line-height: 2.10;
+  font-size: 20px;
+}
+
+/* CHOOSE YOUR CHAMPION */
+
+/* chamnpions frame */
+.championImgContainer {
+  width: 550px;
+  height: 550px;
+  text-align: center;
+  font-size: 33px;
+  line-height: 250px;
+  margin: 30px;
+}
+
+.championImgContainer:after,
+.championImgContainer:before {
+  content: "";
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center center;
+}
+
+.championImgContainer:after {
+  box-shadow: 0 1px 30px rgba(30, 136, 229, 0.6), inset 0 1px 30px rgba(30, 136, 229, 0.6), inset 1px 0 0 rgba(30, 106, 229, 0.6), inset 0 -1px 0 rgba(30, 76, 229, 0.6), inset -1px 0 0 rgba(30, 46, 229, 0.6);
+  animation: rotate1 2s -0.5s linear infinite;
+}
+
+.championImgContainer:before {
+  box-shadow: 0 1px 30px rgba(249, 213, 61, 0.6), inset 0 1px 30px rgba(249, 213, 61, 0.6), inset 1px 0 0 rgba(249, 183, 61, 0.6), inset 0 -1px 0 rgba(249, 153, 61, 0.6), inset -1px 0 0 rgba(249, 123, 61, 0.6);
+  animation: rotate2 2s -0.5s linear infinite;
+}
+
+@keyframes rotate1 {
+  0% {
+      transform: rotateZ(0deg) scaleX(1) scaleY(1);
+  }
+  50% {
+      transform: rotateZ(180deg) scaleX(0.75) scaleY(0.90);
+  }
+  100% {
+      transform: rotateZ(360deg) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+      transform: rotateZ(0deg) scaleX(1) scaleY(1);
+  }
+  50% {
+      transform: rotateZ(-180deg) scaleX(0.90) scaleY(0.75);
+  }
+  100% {
+      transform: rotateZ(-360deg) scaleX(1) scaleY(1);
+  }
+}
+
+
+.aboutChoose {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutChoose h2 {
+  font-family: 'Bona Nova', serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.aboutChoose p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.aboutChoose span {
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+.carousel-item-end {
+  opacity: 0;
+}
+
+.championImgContainer .active {
+  z-index: 1;
+}
+
+.chooseChampion .carousel-inner {
+  width: 40% !important;
+  position: absolute;
+  right: 100px;
+}
+
+.chooseChampion {
+  padding-bottom: 100px;
+}
+
+.championImg {
+  height: 370px;
+  margin-top: 65px;
+}
+
+.chooseChampion {
+  background: linear-gradient(
+    220deg, 
+    rgba(243, 214, 85, 0.74), 
+    rgba(247, 149, 51, 0.746),
+    rgba(245, 170, 191, 0.787),
+    rgba(192, 123, 204, 0.7))
+}
+
+.chooseChampion {
+  box-shadow: inset 0px -15px 20px -15px rgb(112, 160, 233);
+}
+
+.chooseChampion .carousel-item {
+  transition: all 0s ease-out;
+}
+
+.championBtnItems {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.championBtnItems.active {
+  box-shadow: 0 0 10px 5px rgba(251, 241, 143, 0.76);
+} 
+
+.carousel-indicators [data-bs-target] {
+border-top: 0 !important;
+border-bottom: 0 !important;
+}
+
+.marcelineBtn {
+  background-image: url("atGame/marcelineBtn.png");
+} 
+
+.finnBtn {
+  background-image: url("atGame/finnBtn.png");
+}
+
+.bubblegumBtn {
+  background-image: url("atGame/bubblegumBtn.png");
+}
+
+.jakeBtn {
+  background-image: url("atGame/jakeBtn.png");
+}
+
+.FlameBtn {
+  background-image: url("atGame/flameBtn.png");
+}
+
+.championBtn {
+  width: 40%;
+  height: 40%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+  flex-wrap: wrap !important;
+  align-content: center;
+  min-height: 72vh;
+  position: relative !important;
+  padding-right: 40px !important;
+}
+
+.championContainer {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.btn h3 {
+  font-family: 'Bona Nova', serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+
+/* SKINS */
+.chooseSkin .carousel-item {
+  transition: all 0s ease-out;
+}
+
+.skinsImgContainer .active {
+  z-index: 1;
+}
+
+/* chamnpions frame */
+
+.skinsImgContainer {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  font-size: 33px;
+  line-height: 250px;
+  padding: 70px;
+}
+
+
+.skinsImgContainer:before {
+  content: "";
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center center;
+}
+
+.skinsImgContainer:before {
+  background: rgba(187, 244, 251, 0.25);
+  box-shadow:  inset 0 1px 30px rgba(205, 241, 251, 0.774), inset 1px 0 0 rgba(255, 255, 255, 0.6), inset 0 -1px 0 rgba(149, 248, 251, 0.87), inset -1px 0 0 rgba(249, 61, 233, 0.6);
+  animation: rotate1 2s -1s linear infinite;
+}
+
+/* that's all. under code for carousel */
+
+.chooseSkin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.9)), url("atGame/bubbleBackground5.jpeg");
+  padding-bottom: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 20px 10px rgb(6, 35, 78);
+}
+
+_::-webkit-full-page-media, _:future, :root .chooseSkin {
+  background-attachment: local;
+ }
+
+
+
+.aboutSkin {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutSkin h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Bona Nova', serif;
+  font-size: 50px;
+  text-shadow: 1px 1px 20px rgb(50, 57, 161), 0 0 1em rgb(168, 168, 168);
+}
+
+.aboutSkin p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 1px 1px 20px rgb(50, 57, 161), 0 0 1em rgb(168, 168, 168);
+  font-weight: bold;
+}
+
+.skinImg {
+  height: 420px;
+}
+
+
+/* PICTURES */
+.pictures {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+    top: 0;
+  }
+
+  50% {
+    left: -100%;
+    top: 0;
+  }
+
+  100% {
+    left: -50%;
+    top: 0;
+  }
+}
+
+.pictures img {
+  height: 300px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 23s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite; 
+  padding: 7.5px;
+}
+
+@keyframes slideTwo {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
+
+.pictures img:hover {
+  animation-name: slide;
+}
+
+
+/* ALSO */
+.alsoContainer {
+  background-image: url("general/starsOnTheSky.jpg");
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.5);
+  background-attachment: fixed;
+  background-position: center;
+  padding: 30px;
+}
+
+
+.alsoContainerFilms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.alsoContainerFilms img {
+  width: 400px;
+  height: 551px;
+}
+
+.alsoContainerItem {
+  position: relative;
+  margin: 20px;
+}
+
+.itemText {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1.5s;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemText h3 {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Bona Nova', serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.itemText p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.itemText a {
+ display: flex !important;
+ justify-content: center !important;
+ text-decoration: none;
+}
+
+.itemText:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.79);
+  box-shadow: 0 0 50px rgba(241, 250, 113, 0.5);
+}
+
+.alsoHeader h2 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Bona Nova', serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.alsoContainer hr {
+  color: #fff
+}
+
+/* FOOTER */
+footer {
+  background: #000000;
+}
+
+.social_network_img {
+  height: 40px;
+  border-radius: 30px;
+  filter: grayscale(100%) opacity(70%);
+}
+
+.social_network_img:hover {
+  transition-duration: 0.8s;
+  filter: none;
+} 
+
+.social_network {
+  display: flex;
+  justify-content: center;
+}
+
+.menu_items {
+  padding: 15px;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* DIFFERENT SIZE */
+
+@media all and (max-width: 1500px) {
+
+  /* VIDEO */
+  .foregroundVideo {
+    width: 1000px !important;
+  }
+
+  .backgroundVideo {
+    margin-top: -15%;
+  }
+
+  /* GAME BLOCK */
+  .gameBlock {
+    margin-top: 650px !important;
+  }
+
+  /* CHOOSE CHAMPION */
+  .chooseChampion .carousel-inner {
+    width: 45% !important;
+    right: 0px;
+  }
+}
+
+
+
+@media all and (max-width: 1400px) {
+
+  /* VIDEO */
+  .backgroundVideo {
+    margin-top: -10%;
+  }
+
+  /* ABOUT AT */
+  .aboutCartoon {
+    padding: 0px;
+  }
+
+  /* CHOOSE CHAMPION */
+  .chooseChampion {
+    padding-bottom: 0px;
+  }
+
+  .championBtn {
+    margin: 0;
+  }
+
+  .chooseChampion .carousel-inner {
+    left: 45%;
+    width: 50% !important;
+  }
+}
+
+
+@media all and (max-width: 1100px) {
+
+  /* VIDEO */
+  .foregroundVideo {
+    width: 800px !important;
+  }
+
+  /* GAME NAME AND PLAY BTN */
+  .gameBlock {
+    margin-top: 550px !important;
+  }
+
+  .buttonOnPage:hover .finn {
+    width: 150px;
+  }
+
+  .dada {
+    position: absolute;
+    right: -350px;
+    bottom: 0px;
+  }
+
+  /* ABOUT GAME */
+  .AboutAT {
+    flex-direction: column;
+  }
+
+  .aboutCartoon {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .aboutCartoon p {
+    margin: 0 10px 20px 10px !important;
+    text-shadow: rgb(1, 23, 47) 6px 0 20px;
+  }
+
+  /* CHOOSE YOUR CHAMPION */
+  .championContainer {
+    justify-content: flex-start !important;
+    align-items: center;
+    height: 500px !important;
+  }
+
+  .carousel-indicators.championBtn {
+    margin-bottom: 0px;
+  }
+
+  .championImgContainer {
+    margin-left: 10px;
+  }
+
+  .chooseChampion .carousel-inner {
+    left: 40%;
+    width: 51% !important;
+  }
+
+  .championImgContainer {
+    width: 450px;
+    height: 450px;
+  }
+
+  .championImg {
+    height: 300px;
+  }
+
+}
+
+
+@media all and (max-width: 990px) {
+
+  /* VIDEO */
+  .foregroundVideo {
+    top: 100px;
+  }
+
+  /* GAME NAME AND PLAY BTN */
+  .gameBlock {
+    margin-top: 515px;
+  }
+  .buttonOnPage:hover .finn {
+    width: 100px;
+  }
+
+  .dada {
+    right: -250px;
+    top: -50px;
+  }
+
+
+  /* ABOUT GAME */
+  .aboutCartoon p {
+    line-height: 1.5;
+  }
+
+  .aboutCartoon h3 {
+    font-size: 30px;
+  }
+
+  .aboutCartoon p {
+    font-size: 20px;
+  }
+
+  .aboutCartoon {
+    margin-right: 16px;
+  }
+
+  /* CHOOSE YOUR CHAMPION */
+  .champions {
+    padding-left: 0;
+  }
+
+  .championBtn {
+    padding-right: 0 !important;
+  }
+
+  .championBtn .btn {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+
+
+  /* SKINS */
+  .aboutChoose h2, .aboutSkin h2 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .aboutChoose p {
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+  }
+
+  .aboutChoose p, .aboutSkin p {
+    font-size: 20px;
+  }
+
+  /* ALSO */
+  .alsoContainerItem {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+
+@media all and (max-width: 880px) {
+
+  /* VIDEO */
+
+  .foregroundVideo {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ABOUT */
+  .carouselAboutAT {
+    width: min-content !important;
+  }
+
+  /* CHOOSE CHAMPION */
+  .chooseChampion .carousel-inner {
+    width: 57% !important;
+  }
+
+
+  /* CHOOSE SKIN AND CHAMPION*/
+  .championImgContainer {
+    margin: 0 !important;
+  }
+  .skinsImgContainer {
+    width: 350px !important;
+    height: 350px !important;
+    margin: 0px !important;
+  }
+
+  .skinImg {
+    height: 280px !important;
+    margin-top: -40px !important;
+  }
+
+  .bubblegumSkin {
+    height: 230px !important;
+  }
+
+  /* ALSO */
+  .alsoContainerFilms img {
+    width: 350px;
+    height: 501px;
+  }
+
+  .itemText p {
+    line-height: 1.3;
+  }
+
+  .aboutCartoonCarousel, .imageAboutAT{
+    width: 450px;
+    height: 318px;
+    box-shadow: 0 0 10px 5px rgba(164, 167, 243, 0.335); 
+  }
+
+}
+
+@media all and (max-width: 780px) {
+  /* VIDEO */
+  .foregroundVideo {
+    width: 600px !important;
+    top: 50px;
+  }
+  
+  /* GAME NAME AND PLAY BTN */
+  .gameBlock {
+    margin-top: 360px !important;
+  }
+
+  .buttonOnPage:hover .finn {
+    width: 100px;
+  }
+
+  .dada {
+    width: 100px;
+    left: 280px;
+    top: -10px;
+  }
+
+  /* NEWS */
+  .view {
+    background-position: -415px;
+  }
+
+  /* ABOUT AT */
+  .aboutCartoon {
+    margin-right: 13px;
+  }
+  /* CHAMPIONS */
+  .championBtnItems {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .championImgContainer {
+    width: 350px;
+    height: 350px;
+  }
+
+  .championImg {
+    height: 250px;
+  }
+
+  .chooseChampion .carousel-inner {
+    left: 45%;
+    padding: 10px;
+    width: 53% !important;
+  }
+
+  /* ALSO */
+  .alsoContainerFilms img {
+    width: 250px;
+    height: 401px;
+  }
+
+  .itemText h3 {
+    font-size: 20px;
+  }
+
+  .itemText p {
+    font-size: 15px;
+  }
+
+}
+
+@media all and (max-width: 700px) {
+  /* VIDEO */
+  .foregroundVideo {
+    top: 60px;
+  }
+  
+  /* GAME NAME AND PLAY BTN */
+  .gameBlock h1{
+    font-size: 30px;
+  }
+
+  .dada {
+    width: 100px;
+    left: 250px;
+    top: -10px;
+  }
+
+  .btnText {
+    font-size: 25px;
+  }
+  .buttonOnPage {
+    width: 250px;
+  }
+
+  .custom-btn {
+    height: 55px;
+  }
+
+  .buttonOnPage:hover:after {
+    content: "Download on Steam";
+      font-size: 15px;
+  }
+
+  /* CHAMPIONS */
+  .championImgContainer {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px !important;
+    margin-top: 10px !important;
+  }
+
+
+  .championImg {
+    height: 150px !important;
+    margin-top: 0;
+  }
+
+  .jakeLargeSkin {
+    height: 145px !important;
+  }
+
+ .championContainer {
+    height: 300px !important;
+  } 
+
+  .chooseChampion .carousel-inner {
+    width: 45% !important;
+    left: 45%;
+    height: 60% !important;
+  }
+
+  /* ABOUT AT */
+  .aboutCartoonCarousel, .imageAboutAT{
+    width: 350px;
+    height: 218px;
+    box-shadow: 0 0 10px 5px rgba(164, 167, 243, 0.335); 
+  }
+
+  .AboutAT {
+    padding: 10px 0px 10px 0px;
+    justify-content: space-around;
+  }
+
+  /* ALSO */
+  .alsoHeader h2 {
+    font-size: 30px;
+  }
+
+  /* PICTURES */
+  .pictures img {
+    height: 200px;
+  }
+}
+
+
+@media all and (max-width: 600px) {
+  /* VIDEO */
+  .foregroundVideo {
+    width: 400px !important;
+  }
+
+  /* GAME NAME AND PLAY BTN */
+  .gameBlock {
+    margin-top: 250px !important;
+  }
+
+  /* ABOUT AT */
+  .AboutAT {
+    flex-direction: column;
+  }
+
+  .aboutCartoon {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* CHOOSE YOUR CHAMPION AND SKINS */
+
+  .championContainer {
+    flex-direction: column !important;
+    height: 400px !important;
+    margin-top: 50px;
+  }
+
+  .championImgContainer {
+    margin-left: 30px !important;
+  }
+
+  .chooseChampion .carousel-inner {
+    left: 20%;
+    width: 55% !important;
+    bottom: 30px;
+    height: 40% !important;
+  }
+
+  .championBtn {
+    width: 100%;
+    height: 10%;
+    min-height: 0;
+  }
+
+  .skinsImgContainer {
+    width: 400px;
+    height: 400px;
+  }
+
+  .skinImg {
+    height: 250px;
+  }
+
+
+}
+
+
+@media all and (max-width: 560px) {
+
+  /* ALSO */
+  .alsoContainer {
+    padding: 10px
+  }
+
+  /* GAME NAME AND PLAY BTN */
+  .dada {
+    display: none;
+  }
+
+  .gameBlock h1{
+    font-size: 20px;
+  }
+
+  .buttonOnPage span {
+    font-size: 20px;
+  }
+
+  .buttonOnPage {
+    width: 200px;
+  }
+
+  .custom-btn {
+    height: 40px;
+  }
+
+  .buttonOnPage:hover .steamLogo {
+    width: 20px;
+  }
+
+  /* CHOOSE YOUR CHAMPION */
+  .chooseChampion .carousel-inner {
+    bottom: 30px;
+    height: 45% !important;
+  }
+
+  /* ABOUT GAME * SKINS * CHOOSE YOUR CHAMPION */
+  .aboutCartoon p, .aboutSkin, .aboutChoose span, .aboutChoose p {
+    font-size: 15px;
+  }
+  
+}
+
+
+
+  @media all and (max-width: 500px) {
+
+  /* VIDEO */
+  .foregroundVideo {
+    width: 300px !important;
+    top: 65px;
+  }
+
+  /* GAME BTN */
+  .gameBlock {
+    padding: 0;
+  }
+
+  /* CHAMPIONS */
+  .chooseChampion .carousel-inner {
+    width: 75% !important;
+    height: 45% !important;
+    left: 10%;
+  }
+
+  .headerName {
+    font-size: 15px !important;
+  }
+  }
+
+  @media all and (max-width: 400px) {
+  /* CHAMPIONS */
+  .championBtnItems {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .championImgContainer {
+    width: 210px;
+    height: 210px;
+  }
+
+  .championImg {
+    height: 150px;
+    margin-bottom: 50px !important;
+  }
+
+  .chooseChampion .carousel-inner {
+    bottom: 10px;
+    height: 44% !important;
+  }
+
+  .chooseChampion {
+    height: 610px !important;
+  }
+  }
+
+  @media all and (max-width: 320px) {
+    .chooseChampion .carousel-inner {
+      bottom: 10px;
+      width: 80% !important;
+    }
+
+    .skinsImgContainer {
+      width: 250px !important;
+      height: 250px !important;
+    }
+
+    .skinImg {
+      height: 200px !important;
+      margin-bottom: 60px !important;
+      margin-top: -60px !important;
+    }   
+    
+    .aboutCartoonCarousel {
+      width: 310px !important;
+      margin: 0;
+    }
+
+    .jakeLargeSkin {
+      height: 150px !important;
+    }
+  }
+
+  @media all and (max-width: 280px) {
+    .aboutCartoonCarousel, .imageAboutAT {
+      width: 250px !important;
+    }
+
+    .foregroundVideo {
+      width: 280px !important;
+    }
+
+    .skinsImgContainer {
+      width: 250px !important;
+      height: 250px !important;
+    }
+
+    .skinImg {
+      height: 200px !important;
+      margin-bottom: 60px !important;
+      margin-top: -60px !important;
+    }
+
+    .chooseChampion {
+      height: 710px !important;
+    }
+
+    .chooseChampion .carousel-inner {
+      bottom: -20px;
+      height: 42% !important;
+      width: 90% !important;
+      left: 0;
+    }
+  }

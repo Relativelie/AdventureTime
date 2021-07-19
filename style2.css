@@ -1,0 +1,1129 @@
+/* MENU */
+
+.logoImg {
+    height: 50px;
+}
+
+.navbar {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.329), rgba(0,0,0,0.192), rgba(0,0,0,8e-05));
+  position: absolute !important;
+  width: 100%;
+}
+
+.nav-link {
+  -webkit-transition: color 1s !important; /* For Safari 3.0 to 6.0 */
+  transition: color .5s !important; /* For modern browsers */
+}
+.nav-link:hover {
+  color: #a156c3 !important;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    padding: 0px !important;
+    font-size: 20px;
+    color: rgb(194, 193, 193) !important;
+}
+
+.navbar-nav a {
+  font-family: 'Bona Nova', serif;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background:linear-gradient(180deg, rgba(0, 0, 0, 8e-07),rgba(0, 0, 0, 0.19), rgba(0,0,0,0.29), rgba(0,0,0,0.329));
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.603);
+  
+  color: #fff;
+}
+
+.show {
+  background:linear-gradient(180deg, rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.294), rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.404));
+  z-index: 1;
+}
+
+/* VIDEO */
+
+.backgroundVideo {
+    filter: blur(20px) brightness(30%);
+    position: absolute;
+    width: 100%;
+    margin-top: -25%;
+}
+
+.foregroundVideo {
+    position: absolute;
+    top: 150px;
+    margin: 0 auto;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left top,#6169d1 10%,  transparent 30%, transparent 70%, #52a3a8 90%);
+    border-image-slice: 1;
+    box-shadow: 0 0 50px rgba(15, 103, 161, 0.5);
+}
+
+.smallVideo {
+  width: 50% !important;
+}
+
+.bigVideo {
+  width: 1000px !important;
+}
+
+.averageVideo {
+  width: 53% !important;
+}
+
+.videoBlock {
+    position: relative;
+}
+
+/* CARTOON NAME */
+.cartoonName {
+  margin-top: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Safari 9+ (non-iOS) */
+_::-webkit-full-page-media, _:future, :root .cartoonName {
+  margin-top: 750px;
+  display: -webkit-inline-flex;
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+.cartoonName img {
+  height: 170px;
+}
+
+
+/* LATEST SERIES */
+.latestSeriesHead {
+  font-family: 'Bona Nova', serif;
+  margin-left: 50px;
+}
+
+.latestSeriesPictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.view {
+  margin: 10px;
+  border: 7px solid #fff;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 4px #dbdbdb;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  font-family: 'Bona Nova', serif;
+  height: 260px;
+  width: 466px;
+}
+
+/* SERIES OVER THE GARDEN WALL */
+.firstSeriesTheWall {
+  background-image: url("overTheWall/seriesOne.gif");
+}
+
+.secondSeriesTheWall {
+  background-image: url("overTheWall/seriesTwo.gif");
+}
+
+.thirdSeriesTheWall {
+  background-image: url("overTheWall/seriesThree.gif");
+}
+
+/* SERIES ADVENTURE TIME */
+.firstSeries {
+  background-image: url("atCartoon/newsImage1.gif");
+}
+
+.secondSeries {
+  background-image: url("atCartoon/newsImageTwo.gif");
+}
+
+.thirdSeries {
+  background-image: url("atCartoon/newsImage2.gif");
+}
+
+/* SERIES REGULAR SHOW */
+.firstSeriesRegular {
+  background-image: url("regularShow/firstSeries.gif");
+}
+
+.secondSeriesRegular {
+  background-image: url("regularShow/secondSeries.gif");
+}
+
+.thirdSeriesRegular {
+  background-image: url("regularShow/thirdSeries.gif");
+}
+
+
+/* SERIES GUMBALL */
+.firstSeriesGumbol {
+  background-image: url("gumball/firstSeries.gif");
+}
+
+.secondSeriesGumbol {
+  background-image: url("gumball/secondSeries.gif");
+}
+
+.thirdSeriesGumbol {
+  background-image: url("gumball/thirdSeries.gif");
+}
+
+/* SERIES BEAR */
+.firstSeriesBear {
+  background-image: url("bears/firstSeries.gif");
+}
+
+.secondSeriesBear {
+  background-image: url("bears/secondSeries.gif");
+}
+
+.thirdSeriesBear {
+  background-image: url("bears/thirdSeries.gif");
+}
+
+
+.view-first .newsContent {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.newsContent .btn:hover {
+  box-shadow: 0 0 10px #fff;
+}
+
+.overTheGardenSeriesBackgr {
+  background: linear-gradient(
+    60deg,
+    rgba(255, 232, 210, 0.7),
+    rgba(251, 174, 96, 0.7), 
+    rgba(251, 166, 28, 0.7));
+}
+
+.adventureTimeSeriesBackgr, .gumbollSeriesBackgr
+{
+  background: linear-gradient(
+    60deg,
+    rgba(247,149,51,0.7), 
+    rgba(243,112,85,0.7), 
+    rgba(239,78,123,0.7),
+    rgba(161,102,171,0.7),
+    rgba(16,152,173,0.7), 
+    rgba(7,179,155,0.7), 
+    rgba(111,186,130,0.7));
+}
+
+.regularShowSeriesBackgr {
+  background: linear-gradient(
+    60deg,
+    rgba(206, 204, 95, 0.7),
+    rgba(138, 231, 125, 0.7), 
+    rgba(62, 118, 238, 0.7));
+}
+
+.bearsSeriesBackgr {
+  background: linear-gradient(
+    60deg,
+    rgba(209, 209, 209, 0.7),
+    rgba(33, 161, 151, 0.7)),
+    rgba(248, 236, 60, 0.7);
+}
+
+.view-first h2 {
+    margin-top: 30px;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+
+.bearsSeriesBackgr h2 {
+  background-color: rgba(36, 32, 32, 0.945);
+}
+
+.overTheGardenSeriesBackgr h2 {
+  background-color: rgba(81, 122, 63, 0.945);
+} 
+
+.adventureTimeSeriesBackgr h2, .gumbollSeriesBackgr h2 {
+  background-color: rgba(57, 88, 175, 0.945);
+}
+
+.regularShowSeriesBackgr h2 {
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+.view-first p { 
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover .newsContent { 
+	opacity: 1;
+
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+
+/* ABOUT CARTOON */
+.AboutAT {
+  display: flex;
+  justify-content: center;
+  background-image: url("general/starsOnTheSky.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 10px 100px 10px;
+  box-shadow: 0 0 10px 10px rgba(27, 27, 31, 0.664); 
+  align-items: center;
+}
+
+.aboutCartoonCarousel, .imageAboutAT{
+  width: 550px;
+  height: 418px;
+  box-shadow: 0 0 10px 5px rgba(164, 167, 243, 0.335); 
+}
+
+.imageAboutAT {
+  object-fit: cover;
+}
+
+.aboutCartoon {
+  padding: 10px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutCartoon h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Bona Nova', serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.aboutCartoon p {
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  line-height: 2.10;
+  font-size: 20px;
+}
+
+/* PICTURES */
+.pictures {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+    top: 0;
+  }
+
+  50% {
+    left: -100%;
+    top: 0;
+  }
+
+  100% {
+    left: -50%;
+    top: 0;
+  }
+}
+
+.pictures img {
+  height: 300px;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 23s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite; 
+  padding: 7.5px;
+}
+
+@keyframes slideTwo {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
+
+.pictures img:hover {
+  animation-name: slide;
+}
+
+
+/* BOOKS */
+.booksBlock {
+  background-image: url("general/starsOnTheSky.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 10px 50px 10px;
+  box-shadow: 0 0 10px 10px rgba(31, 27, 27, 0.664); 
+  align-items: center;
+}
+
+.booksHeader {
+  color: #fff;
+  font-family: 'Bona Nova', serif;
+  padding: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.book {
+  width: 400px;
+  height: 500px;
+}
+
+.inner-book {
+  transition: all 1s ease-out;
+  transform-style: preserve-3d;
+  width: 400px;
+  height: 500px;
+}
+
+.book:hover .inner-book {
+  transform: rotateY(180deg);
+  margin-left: 70px;
+}
+
+
+.pageCover, .page {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.page-5, .page-6, .page-8, .page-7 {
+  transform: rotateY(180deg);
+}
+
+.page {
+  width: calc(100% - 50px);
+  height: 100%;
+  position: absolute;
+  box-shadow: inset 0px -1px 2px rgba(50, 50, 50, 0.2),
+    inset -1px 0px 1px rgba(150, 150, 150, 0.1);
+  border-radius: 0px 3px 3px 0px;
+  right: -3px;
+  z-index: 4;
+  border: 0.1px solid;
+  background: #fff;
+}
+
+.page-2 {
+  height: calc(100% - 4px);
+  right: -6px;
+  z-index: 3;
+}
+
+.page-3 {
+  height: calc(100% - 6px);
+  right: -9px;
+  z-index: 2;
+}
+
+.page-4 {
+  height: calc(100% - 8px);
+  right: -12px;
+  z-index: 1;
+  box-shadow: 0 0 13px rgb(250, 239, 174);
+}
+
+.page-6 {
+  height: calc(100% - 4px);
+  right: -6px;
+  z-index: 3;
+  box-shadow: inset 0 0 10px dimgray;
+}
+
+.page-7 {
+  height: calc(100% - 8px);
+  right: -9px;
+}
+
+.page-8 {
+  height: calc(100% - 6px);
+  right: -12px;
+}
+
+.page-5 div {
+  background-color: rgba(255, 255, 255, 0.808);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-5 h2 {
+  font-family: 'Bona Nova', serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.page-5 p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+.pageCover, .page-5 {
+  background-position: center;
+  background-size: cover;
+}
+
+/* OVER THE GARDEN WALL */
+.bookOneOverTheGarden {
+  background-image: url("overTheWall/bookOneGarden.jpeg");
+}
+
+.bookTwoOverTheGarden {
+  background-image: url("overTheWall/bookTwoGarden.jpeg");
+}
+
+.bookThreeOverTheGarden {
+  background-image: url("overTheWall/bookThreeGarden.jpeg");
+}
+
+/* ADVENTURE TIME */
+.bookOne {
+  background-image: url("atCartoon/bookOne.jpeg");
+}
+
+.bookTwo {
+  background-image: url("atCartoon/bookTwo.jpeg");
+}
+
+.bookThree {
+  background-image: url("atCartoon/bookThree.jpeg");
+}
+
+/* REGULAR SHOW */
+.bookOneRegular {
+  background-image: url("regularShow/bookOne.jpeg");
+}
+
+.bookTwoRegular {
+  background-image: url("regularShow/bookTwo.jpeg");
+}
+
+.bookThreeRegular {
+  background-image: url("regularShow/bookThree.jpeg");
+}
+
+/* GUMBOLL */
+.bookOneGumboll {
+  background-image: url("gumball/bookOne.jpg");
+}
+
+.bookTwoGumboll {
+  background-image: url("gumball/bookTwo.jpeg");
+}
+
+.bookThreeGumboll {
+  background-image: url("gumball/bookThree.jpeg");
+}
+
+/* BEARS */
+.bookOneBear {
+  background-image: url("bears/bookOne.jpeg");
+}
+
+.bookTwoBear {
+  background-image: url("bears/bookTwo.jpeg");
+}
+
+.bookThreeBear {
+  background-image: url("bears/bookThree.jpeg");
+}
+
+
+/* BOOKS BTN */
+.buyBtn {
+  width: 100%;
+}
+
+.bookBtn {
+  font-family: 'Bona Nova', serif;
+  margin-left: -65px;
+  width: 80px;
+  box-shadow: 0 0 10px rgb(245, 255, 155);
+  animation:  2s  ease 1s infinite running rotate;
+  background: rgb(132, 230, 221);
+  border-radius: 15px;
+  font-size: 20px;
+  animation-duration: 4.5s;
+  animation-name: appearBtn;
+}
+
+/* Safari 9+ (non-iOS) */
+_::-webkit-full-page-media, _:future, :root .inner-book {
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+
+
+@keyframes appearBtn {
+  0% {
+    margin-left: -40px;
+  }
+
+  50% {
+    margin-left: -53px;
+  }
+
+  100% {
+    margin-left: -40px;
+  }
+  
+}
+
+
+.buyBtn:hover .btn{
+  margin-left: -65px !important;
+}
+
+
+/* FOOTER */
+footer {
+  background: #000000;
+}
+
+.social_network_img {
+  height: 40px;
+  border-radius: 30px;
+  filter: grayscale(100%) opacity(70%);
+}
+
+.social_network_img:hover {
+  transition-duration: 0.8s;
+  filter: none;
+} 
+
+.social_network {
+  display: flex;
+  justify-content: center;
+}
+
+.menu_items {
+  padding: 15px;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+/* DIFFERENT SIZE */
+
+@media all and (max-width: 1500px) {
+
+  /* VIDEO */
+  .bigVideo {
+    width: 860px !important;
+  }
+
+  .backgroundVideo {
+    margin-top: -15%;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top: 650px !important;
+  }
+
+  /* BOOKS */
+  .inner-book {
+    width: 350px;
+    height: 450px;
+    margin-left: 27px;
+  }
+
+  .page-5 h2 {
+    font-size: 35px;
+  }
+
+  .page-5 p {
+    font-size: 15px;
+  }
+}
+
+
+
+@media all and (max-width: 1400px) {
+
+  /* VIDEO */
+
+  .backgroundVideo {
+    margin-top: -20%;
+  }
+
+  .bigVideo {
+    width: 53% !important;
+    top: 100px;
+  }
+
+  /* ABOUT CARTOON */
+  .aboutCartoon {
+    padding: 0px;
+  }
+
+    /* BOOKS */
+    .inner-book {
+      width: 350px;
+      height: 450px;
+    }
+
+    .wrapper {
+      margin-left: 30px;
+    }
+
+    .cartoonName {
+      margin-top: 43.5% !important;
+    }
+}
+
+
+@media all and (max-width: 1100px) {
+
+  /* VIDEO */
+
+  .foregroundVideo {
+    width: 700px !important;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top:55% !important;
+}
+}
+
+
+@media all and (max-width: 990px) {
+
+  /* VIDEO */
+
+  .foregroundVideo {
+    top: 100px;
+  }
+
+  /* ABOUT CARTOON */
+  .aboutCartoon p {
+    line-height: 1.5;
+  }
+
+  .aboutCartoon {
+    margin-right: 16px;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top:58% !important;
+}
+
+ /* LATEST SERIES */
+  .view {
+    height: 180px;
+    width: 380px;
+  }
+
+  .newsContent h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .newsContent p {
+    font-size: 15px;
+
+    margin-top: 0px;
+  }
+
+  .newsContent .btn {
+    font-size: 15px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .newsContent div {
+    padding-bottom: 5px;
+  }
+}
+
+
+@media all and (max-width: 880px) {
+
+  /* VIDEO */
+
+  .foregroundVideo {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top: 67% !important;
+}
+
+  /* LATEST SERIES */
+  .view {
+    height: 280px;
+    width: 480px;
+  }
+
+  .newsContent h2 {
+    font-size: 40px;
+    margin-top: 15px;
+  }
+
+  .newsContent p {
+    font-size: 20px;
+  }
+
+  .newsContent .btn {
+    font-size: 20px !important;
+  }
+
+  /* ABOUT */
+  .aboutCartoon h3 {
+    font-size: 35px;
+  }
+
+  .aboutCartoon p {
+    font-size: 17px;
+  }
+
+  .carouselAboutAT {
+    width: min-content !important;
+  }
+
+  .AboutAT {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .aboutCartoon {
+    width: 100%;
+  }
+
+/* BOOKS */
+.inner-book {
+  width: 400px;
+  height: 500px;
+  margin-left: 0;
+}
+
+.book { 
+  margin: 15px;
+}
+
+.wrapper {
+  margin-left: 0;
+}
+
+.page-5 h2 {
+  font-size: 45px !important;
+}
+
+.page-5 p {
+  font-size: 20px !important;
+}
+}
+
+@media all and (max-width: 780px) {
+  /* VIDEO */
+  .averageVideo {
+    width: 90% !important;
+    top: 50px;
+  }
+
+  .smallVideo {
+    width: 80% !important;
+    top: 50px;
+  }
+
+  .bigVideo {
+    width: 70% !important;
+    top: 50px;
+  }
+
+  /* LATEST SERIES */
+  .latestSeriesHead {
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top:64% !important;
+  }
+
+  /* BOOK */
+  .booksHeader {
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  /* VIDEO */
+  .foregroundVideo {
+    top: 60px;
+  }
+
+  .cartoonName img {
+    height: 100px;
+  }
+
+}
+
+
+@media all and (max-width: 600px) {
+  /* VIDEO */
+  .foregroundVideo {
+    width: 400px !important;
+  }
+
+  /* NEWS */
+  .news .view {
+    width: 28%;
+  }
+
+  /* PICTURES */
+  .pictures img {
+    height: 200px;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top: 54%;
+  }
+}
+
+
+
+@media all and (max-width: 500px) {
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top: 70% !important;
+  }
+
+  /* LAST SERIES */
+  .view {
+    height: 180px;
+    width: 380px;
+}
+
+  /* ABOUT CARTOON */
+  .aboutCartoonCarousel, .imageAboutAT {
+    width: 350px;
+    height: 218px;
+  }
+
+  /* LATEST SERIES */
+  .latestSeriesHead {
+    margin-left: 5px;
+  }
+  
+
+  /* BOOK */
+  .inner-book {
+    width: 300px;
+    height: 400px;
+  }
+
+  .bookBtn {
+    font-size: 15px !important;
+  }
+
+  .page-5 h2 {
+    font-size: 20px !important;
+    margin: 0;
+  }
+
+  .page-5 p {
+    font-size: 17px !important;
+    line-height: 1,2;
+    margin: 0;
+    padding: 0 5px 0 5px;
+  }
+
+  .book {
+    margin: 0 0 50px 0 !important;
+    height: 380px;
+  }
+
+  /* ABOUT CARTOON */
+  .newsContent .btn {
+    margin-bottom: 0;
+    font-size: 14px !important;
+  }
+  
+  .newsContent h2 {
+    font-size: 25px;
+  }
+  
+  .newsContent p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+@media all and (max-width: 400px) {
+  /* VIDEO */
+  .foregroundVideo {
+    width: 300px !important;
+  }
+
+  /* LAST SERIES */
+  .view {
+    height: 180px;
+    width: 280px;
+  }
+
+  .newsContent h2 {
+    font-size: 20px;
+  }
+
+  /* CARTOON NAME */
+  .cartoonName img {
+    height: 50px !important;
+  }
+
+    /* LAST SERIES */
+  .latestSeriesHead {
+    padding-top: 20px;
+  }
+
+
+  /* ABOUT CARTOON */
+  .aboutCartoonCarousel, .imageAboutAT {
+    width: 300px;
+    height: 218px;
+  }
+
+    /* BOOK */
+    .inner-book {
+      width: 250px;
+      height: 350px;
+    }
+
+    .page-5 p {
+      font-size: 15px !important;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+  /* CARTOON NAME */
+  .cartoonName {
+    margin-top: 55% !important;
+  }
+
+  .page-5 p {
+    line-height: 1;
+  }
+
+  .page-5 h2 {
+    font-size: 20px !important;
+  }
+}
+
+@media all and (max-width: 300px) {
+  /* VIDEO */
+  .foregroundVideo {
+    width: 250px !important;
+  }
+
+  /* ABOUT CARTOON */
+  .aboutCartoonCarousel, .imageAboutAT {
+    width: 250px;
+    height: 268px;
+  }
+
+  /* BOOK */
+  .inner-book {
+    width: 200px;
+    height: 330px;
+  }
+
+  .page-5 p {
+    font-size: 13px !important;
+    line-height: 1;
+  }
+
+  .page-5 h2 {
+    font-size: 20px !important;
+  }
+}
